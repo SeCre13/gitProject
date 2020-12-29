@@ -1,2 +1,7 @@
+#ignores file in the same folder
 /text1.txt 
-/text2.txt
+/text2.txt 
+#ignores all file an a nested folder as well as the folder
+/nested_folder/*
+#ignores all the txt inside but not the foldrer
+/auto-gen-files/a.txt
